@@ -1,0 +1,25 @@
+{
+  "name": "stein",
+  "version": "1.0.0",
+  "description": "A natural language poetry engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jweinst1/stein.git"
+  },
+  "keywords": [
+    "poetry",
+    "natural",
+    "language",
+    "nlg"
+  ],
+  "author": "Joshua Weinstein <jweinst1@berkeley.edu> (https://github.com/jweinst1)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jweinst1/stein/issues"
+  },
+  "homepage": "https://github.com/jweinst1/stein#readme"
+}

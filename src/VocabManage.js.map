@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "VocabManage.js",
+  "sourceRoot": "",
+  "sources": [
+    "VocabManage.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EAAA,MAAM,CAAC,OAAP,GACE;IAAA,IAAA,EAAK,OAAA,CAAQ,oBAAR,CAAL;;AADF"
+}

@@ -1,0 +1,7 @@
+{
+  "1det-s":["the", "that", "this"],
+  "3noun-s":["orange", "family", "chocolate", "banana",  "happiness", "piano",  "animal",  "challenge",  "potato", "business"],
+  "1verb-s":["runs", "walks", "cries", "bleeds", "shines"],
+  "3noun-p":["families", "chocolates", "bakeries", "apricots", "elephants"],
+  "1conj-d":["and", "or", "nor", "with"]
+}

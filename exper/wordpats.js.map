@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "wordpats.js",
+  "sourceRoot": "..",
+  "sources": [
+    "exper/wordpats.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAEA;AAAA,MAAA;;EAAA,QAAA,GACI;IAAA,MAAA,EAAO,CAAC,QAAD,EAAW,WAAX,EAAwB,MAAxB,EAAgC,KAAhC,CAAP;IACA,KAAA,EAAM,CAAC,KAAD,EAAQ,QAAR,CADN;IAEA,IAAA,EAAK,CAAC,QAAD,EAAW,QAAX,CAFL;IAGA,MAAA,EAAO,CAAC,KAAD,EAAQ,KAAR,CAHP;;AADJ"
+}

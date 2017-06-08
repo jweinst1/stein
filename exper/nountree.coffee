@@ -2,3 +2,4 @@
 # an example is college student, so college is a child of student
 
 nounTree = require("./nountree.json")
+console.log nounTree

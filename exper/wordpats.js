@@ -3,10 +3,11 @@
   var patterns;
 
   patterns = {
-    noun_s: ["verb_s", "verb_past", "punc", "END"],
+    start: ["noun_s", "det_s", "adj"],
+    noun_s: ["verb_s", "verb_past", "END"],
     det_s: ["adj", "noun_s"],
-    _ing: ["verb_s", "tobe_s"],
-    tobe_s: ["adj", "END"]
+    adj: ["noun_s"],
+    verb_s: []
   };
 
 }).call(this);

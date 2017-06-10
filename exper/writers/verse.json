@@ -1,0 +1,11 @@
+{
+    "my_st":{
+        "grammar":{
+            "start":["pron_m", "noun_p"],
+            "m_pron":["I", "him", "her"]
+        },
+        "vocab":{
+            
+        }
+    }
+}

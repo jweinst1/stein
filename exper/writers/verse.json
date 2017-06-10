@@ -2,10 +2,12 @@
     "my_st":{
         "grammar":{
             "start":["pron_m", "noun_p"],
-            "m_pron":["I", "him", "her"]
+            "pron_m":["sug", "verb_m"],
+            "noun_p":["verb_m"]
         },
         "vocab":{
-            
+            "m_pron":["I", "him", "her"],
+            "noun_p":["knives", "bolts", "darts", "blades"]
         }
     }
 }

@@ -1,13 +1,15 @@
 {
-    "my_st":{
+    "ip_tb":{
         "grammar":{
-            "start":["pron_m", "noun_p"],
+            "start":["pron_m"],
             "pron_m":["sug", "verb_m"],
-            "noun_p":["verb_m"]
+            "sug":["verb_m", "END"],
+            "verb_m":["END"]
         },
         "vocab":{
-            "m_pron":["I", "him", "her"],
-            "noun_p":["knives", "bolts", "darts", "blades"]
+            "pron_m":["I", "we"],
+            "sug":["can't", "can", "would", "could", "cannot"],
+            "verb_m":["walk", "run", "fall", "die", "crumble", "cower"]
         }
     }
 }

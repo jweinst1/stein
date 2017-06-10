@@ -26,6 +26,8 @@ class LineIter
         @reset()
         line
         
+module.exports = LineIter
+        
 patterns =
     start:["noun_s", "det_s", "adj"]
     noun_s:["verb_s", "verb_past", "END"]
@@ -50,5 +52,3 @@ voc =
     day:["today", "yesterday", "monday", "sunday"]
     adv:["quickly", "abruptly", "cautiously", "happily", "sadly"]
     
-test = new LineIter(patterns, voc)
-console.log(test.gen()) for i in [0..20]

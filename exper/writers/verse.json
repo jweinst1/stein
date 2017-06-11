@@ -11,5 +11,30 @@
             "sug":["can't", "can", "would", "could", "cannot"],
             "verb_m":["walk", "run", "fall", "die", "crumble", "cower"]
         }
+    },
+    "scene_nat_0":{
+        "grammar":{
+            "start":["color", "feel", "tex", "det_s"],
+            "det_s":["des"],
+            "des":["color", "feel", "tex"],
+            "color":["place"],
+            "feel":["place"],
+            "tex":["place", "color"],
+            "place":["verb_s"],
+            "verb_s":["conj", "END"],
+            "conj":["verb_sf"],
+            "verb_sf":["END"]
+        },
+        "vocab":{
+            "color":["red", "teal", "yellow", "orange", "red", "blue", "aqua", "green"],
+            "feel":["gloomy", "droopy", "angry", "sad", "furious", "enraged", "cheerful"],
+            "tex":["rough", "sharp", "smooth", "bumpy"],
+            "det_s":["the", "a"],
+            "place":["sky", "forest", "mountain", "rock", "cliff", "lake"],
+            "verb_s":["shines", "sparkles", "glows", "sings", "pulses", "turns", "flows"],
+            "verb_sf":["shines", "sparkles", "glows", "sings", "pulses", "turns", "flows"],
+            "des":[""],
+            "conj":["and", "then"]
+        }
     }
 }

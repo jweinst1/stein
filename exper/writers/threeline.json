@@ -1,0 +1,19 @@
+{
+    "begin":{
+        "grammar":{
+            "start":["det"],
+            "det":[]
+        },
+        "vocab":{
+            "det":["the", "this", "that"]
+        }
+    },
+    "des_obj":{
+        "grammar":{},
+        "vocab":{}
+    },
+    "act":{
+        "grammar":{},
+        "vocab":{}
+    }
+}

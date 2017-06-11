@@ -1,11 +1,13 @@
 {
     "begin":{
         "grammar":{
-            "start":["det"],
-            "det":[]
+            "start":["det", "pos"],
+            "det":["adj"],
+            "pos":["adj"]
         },
         "vocab":{
-            "det":["the", "this", "that"]
+            "det":["the", "this", "that"],
+            "pos":["my", "his", "her", "their"]
         }
     },
     "des_obj":{

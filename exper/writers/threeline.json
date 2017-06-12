@@ -9,16 +9,24 @@
         "vocab":{
             "det":["the", "this", "that"],
             "pos":["my", "his", "her", "their"].
-            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering"]
+            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering", "dangerous", "glowing", "breezy"]
         }
     },
     "des_obj":{
         "grammar":{
             "start":["adj", "obj"],
             "adj":["obj"],
-            "obj":[]
+            "obj":["post"],
+            "post":["det", "mass_noun"],
+            "det":["sing_noun"],
+            "sing_noun":["END"],
+            "mass_noun":["END"]
         },
-        "vocab":{}
+        "vocab":{
+            "adj":["cool", "warm", "hot", "green", "dark", "bright", "crisp", "light", "bold", "red", "brown", "fluffy", "rough"],
+            "obj":["face", "spirit", "lion", "beast", "dragon", "tree", "leaf", "blade", "dog", "glass"],
+            "post":["of", "beside", "from", "near", "toward"]
+        }
     },
     "act":{
         "grammar":{},

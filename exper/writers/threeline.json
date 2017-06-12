@@ -8,7 +8,7 @@
         },
         "vocab":{
             "det":["the", "this", "that"],
-            "pos":["my", "his", "her", "their"].
+            "pos":["my", "his", "her", "their"],
             "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering", "dangerous", "glowing", "breezy"]
         }
     },
@@ -16,8 +16,9 @@
         "grammar":{
             "start":["adj", "obj"],
             "adj":["obj"],
-            "obj":["post"],
-            "post":["det", "mass_noun"],
+            "obj":["post", "mass_post"],
+            "post":["det"],
+            "mass_post":["mass_noun"],
             "det":["sing_noun"],
             "sing_noun":["END"],
             "mass_noun":["END"]
@@ -26,11 +27,29 @@
             "adj":["cool", "warm", "hot", "green", "dark", "bright", "crisp", "light", "bold", "red", "brown", "fluffy", "rough"],
             "obj":["face", "spirit", "lion", "beast", "dragon", "tree", "leaf", "blade", "dog", "glass"],
             "post":["of", "beside", "from", "near", "toward"],
-            "det":["the"]
+            "det":["the"],
+            "sing_noun":["river", "forest", "mountain", "underworld"],
+            "mass_post":["of"],
+            "mass_noun":["roses", "love", "hate", "rage", "power", "evil", "virtue", "peace"]
         }
     },
     "act":{
-        "grammar":{},
-        "vocab":{}
+        "grammar":{
+            "start":["verb_past", "verb_pres"],
+            "verb_past":["pron_m"],
+            "verb_pres":["pron_m"],
+            "pron_m":["post_q"],
+            "post_q":["det"],
+            "det":["act_obj"],
+            "act_obj":["END"]
+        },
+        "vocab":{
+            "verb_past":["asked", "begged", "beckoned", "wanted"],
+            "verb_pres":["asks", "begs", "beckons", "wants"],
+            "pron_m":["me", "him", "her", "them"],
+            "post_q":["for"],
+            "det":["a"],
+            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance"]
+        }
     }
 }

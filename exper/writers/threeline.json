@@ -3,15 +3,21 @@
         "grammar":{
             "start":["det", "pos"],
             "det":["adj"],
-            "pos":["adj"]
+            "pos":["adj"],
+            "adj":["END"]
         },
         "vocab":{
             "det":["the", "this", "that"],
-            "pos":["my", "his", "her", "their"]
+            "pos":["my", "his", "her", "their"].
+            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering"]
         }
     },
     "des_obj":{
-        "grammar":{},
+        "grammar":{
+            "start":["adj", "obj"],
+            "adj":["obj"],
+            "obj":[]
+        },
         "vocab":{}
     },
     "act":{

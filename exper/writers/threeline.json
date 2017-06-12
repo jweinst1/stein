@@ -25,7 +25,8 @@
         "vocab":{
             "adj":["cool", "warm", "hot", "green", "dark", "bright", "crisp", "light", "bold", "red", "brown", "fluffy", "rough"],
             "obj":["face", "spirit", "lion", "beast", "dragon", "tree", "leaf", "blade", "dog", "glass"],
-            "post":["of", "beside", "from", "near", "toward"]
+            "post":["of", "beside", "from", "near", "toward"],
+            "det":["the"]
         }
     },
     "act":{

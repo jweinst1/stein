@@ -19,4 +19,3 @@ write = (num)->
 
 module.exports.write = write
 
-console.log(write(4))

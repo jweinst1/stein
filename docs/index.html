@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>stein poetry engine</title>
+    <script src="https://jweinst1.github.io/stein/lib/threeug.js"></script>
+  </head>
+  <body>
+    <script>
+        var poemLines = stein.write(1).split("\n");
+        for(var i=0;i<poemLines.length;i++){
+            document.write("<p>" + poemLines[i] + "</p>");
+        }
+    </script>
+  </body>
+</html>

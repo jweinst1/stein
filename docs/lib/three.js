@@ -103,13 +103,13 @@ module.exports={
             "mass_noun":["END"]
         },
         "vocab":{
-            "adj":["cool", "warm", "hot", "green", "dark", "bright", "crisp", "light", "bold", "red", "brown", "fluffy", "rough"],
-            "obj":["face", "spirit", "lion", "beast", "dragon", "tree", "leaf", "blade", "dog", "glass"],
+            "adj":["cool", "warm", "hot", "green", "dark", "bright", "crisp", "light", "bold", "red", "brown", "fluffy", "rough", "purple", "pointy", "rocky", "beige", "beautiful", "gorgeous", "pleasent"],
+            "obj":["face", "spirit", "lion", "beast", "dragon", "tree", "leaf", "blade", "dog", "glass", "shark", "man", "woman", "child", "tyrant", "fish", "lemur", "monkey", "zebra", "dragon", "trident", "sword"],
             "post":["of", "beside", "from", "near", "toward"],
             "det":["the"],
             "sing_noun":["river", "forest", "mountain", "underworld"],
             "mass_post":["of"],
-            "mass_noun":["roses", "love", "hate", "rage", "power", "evil", "virtue", "peace"]
+            "mass_noun":["roses", "love", "hate", "rage", "power", "evil", "virtue", "peace", "war", "death", "life", "sorrow", "despair", "greif", "solitude", "fire"]
         }
     },
     "act":{
@@ -133,7 +133,7 @@ module.exports={
             "pron_past_m":["me", "him", "her", "them"],
             "post_q":["for"],
             "det":["a"],
-            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance", "look"],
+            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance", "look", "greeting"],
             "adv_past":["softly", "abruptly", "intensely", "viciously", "cowardly", "swiftly", "sharply", "sadly"]
         }
     }

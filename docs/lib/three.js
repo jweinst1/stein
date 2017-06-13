@@ -88,7 +88,7 @@ module.exports={
         "vocab":{
             "det":["the", "this", "that"],
             "pos":["my", "his", "her", "their"],
-            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering", "dangerous", "glowing", "breezy", "windy", "molten", "icy", "muddy"]
+            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering", "dangerous", "glowing", "breezy", "windy", "molten", "icy", "muddy", "enticing"]
         }
     },
     "des_obj":{

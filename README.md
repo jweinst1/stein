@@ -12,7 +12,7 @@ So far, `stein` can only be used in the browser to write small, three line poems
 
 To link as a script, use one of the two following urls
 
-```
+```html
 <script src="https://jweinst1.github.io/stein/lib/threeug.js"></script>
 <script src="https://jweinst1.github.io/stein/lib/three.js"></script>
 ```

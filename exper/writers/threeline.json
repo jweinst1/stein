@@ -35,10 +35,13 @@
     },
     "act":{
         "grammar":{
-            "start":["verb_past", "verb_pres"],
+            "start":["verb_past", "verb_pres", "act_past"],
+            "act_past":["pron_past_m"],
             "verb_past":["pron_m"],
             "verb_pres":["pron_m"],
             "pron_m":["post_q"],
+            "pron_past_m":["adv_past", "END"],
+            "adv_past":["END"],
             "post_q":["det"],
             "det":["act_obj"],
             "act_obj":["END"]
@@ -46,10 +49,13 @@
         "vocab":{
             "verb_past":["asked", "begged", "beckoned", "wanted"],
             "verb_pres":["asks", "begs", "beckons", "wants"],
+            "act_past":["stabbed", "healed", "loved", "hated", "liked"],
             "pron_m":["me", "him", "her", "them"],
+            "pron_past_m":["me", "him", "her", "them"],
             "post_q":["for"],
             "det":["a"],
-            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance", "look"]
+            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance", "look"],
+            "adv_past":["softly", "abruptly", "intensely", "viciously", "cowardly", "swiftly", "sharply", "sadly"]
         }
     }
 }

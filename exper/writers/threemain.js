@@ -42,6 +42,4 @@
 
   module.exports.write = write;
 
-  console.log(write(4));
-
 }).call(this);

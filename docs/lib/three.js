@@ -183,8 +183,6 @@ module.exports={
 
   module.exports.write = write;
 
-  console.log(write(4));
-
 }).call(this);
 
 },{"../LineIter":1,"./threeline.json":2}]},{},[3])(3)

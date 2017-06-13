@@ -10,7 +10,7 @@ three = new iter(engData.act.grammar, engData.act.vocab)
 
 poemWriter = (generators...)->
     (amount) ->
-        ((obj.gen() for obj in generators).join(",\n") for i in [0..amount])
+        ((obj.gen() for obj in generators).join(",\n") for i in [0..amount-1])
 
 
 write = (num)->

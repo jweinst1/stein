@@ -160,7 +160,7 @@ module.exports={
     return function(amount) {
       var i, j, obj, ref, results;
       results = [];
-      for (i = j = 0, ref = amount; 0 <= ref ? j <= ref : j >= ref; i = 0 <= ref ? ++j : --j) {
+      for (i = j = 0, ref = amount - 1; 0 <= ref ? j <= ref : j >= ref; i = 0 <= ref ? ++j : --j) {
         results.push(((function() {
           var k, len, results1;
           results1 = [];

@@ -10,12 +10,12 @@ three = new iter(engData.act.grammar, engData.act.vocab)
 
 poemWriter = (generators...)->
     (amount) ->
-        ((obj.gen() for obj in generators).join(",\n") for i in [0..amount-1])
+        ((obj.gen() for obj in generators).join(",\n") + "\n" for i in [0..amount-1])
 
 
 write = (num)->
     poet = poemWriter(one, two, three)
-    poet(num).join("\n") + "\n"
+    poet(num).join("\n")
 
 module.exports.write = write
 

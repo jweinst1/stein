@@ -28,7 +28,7 @@
             results1.push(obj.gen());
           }
           return results1;
-        })()).join(",\n"));
+        })()).join(",\n") + "\n");
       }
       return results;
     };
@@ -37,7 +37,7 @@
   write = function(num) {
     var poet;
     poet = poemWriter(one, two, three);
-    return poet(num).join("\n") + "\n";
+    return poet(num).join("\n");
   };
 
   module.exports.write = write;

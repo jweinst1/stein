@@ -9,7 +9,7 @@
         "vocab":{
             "det":["the", "this", "that"],
             "pos":["my", "his", "her", "their"],
-            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering", "dangerous", "glowing", "breezy"]
+            "adj":["calm", "chaotic", "angry", "immense", "blissful", "strong", "sharp", "shimmering", "dangerous", "glowing", "breezy", "windy", "molten", "icy", "muddy"]
         }
     },
     "des_obj":{
@@ -49,7 +49,7 @@
             "pron_m":["me", "him", "her", "them"],
             "post_q":["for"],
             "det":["a"],
-            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance"]
+            "act_obj":["kiss", "hand", "rose", "blessing", "hug", "flower", "glance", "look"]
         }
     }
 }
